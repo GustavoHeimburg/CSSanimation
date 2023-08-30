@@ -11,14 +11,15 @@ var idadeFutura = idadeAtual + 30;
 alert('Sua idade atual é: ' + idadeAtual);
 alert('Sua idade daqui a 30 anos será: ' + idadeFutura);
 
-var voto=18;
-if(voto>18){
-document.write("Pode votar, sua idade e legal! " +voto);
-}else{
-document.write("Ainda nao pode votar, sua idade e menor que o permitido " +voto);
+var voto = prompt('Escreva sua idade atual!');
+if(voto >= 18){
+    document.write("Pode votar, sua idade é legal! " + voto);
+} else {
+    document.write("Ainda não pode votar, sua idade é menor que o permitido " + voto);
 }
 
 </script>
+
 <script src="https://kit.fontawesome.com/d8f0ddbf37.js" crossorigin="anonymous"></script>
 </head>
 <body> 
@@ -26,8 +27,7 @@ document.write("Ainda nao pode votar, sua idade e menor que o permitido " +voto)
     <ul>
         <li> Elemento #1</li>
         <li> Elemento #2</li>
-        <li> Elemento #3</li>
-        
+        <li> Elemento #3</li> 
         
     </ul>
     <div id="box">Ola!</div>
